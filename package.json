@@ -1,0 +1,24 @@
+{
+  "name": "app-challenge-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2",
+    "prettier": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ProfessorJS@bitbucket.org/ProfessorJS/project-challenge-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ProfessorJS/project-challenge-1#readme"
+}
