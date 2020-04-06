@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 const knex = require('./config/db');
 
 // if (process.env.NODE_ENV === "production") {
-app.use(express.static('client/dist'));
+app.use(express.static('CLIENT/dist'));
 // }
 
 // MIDDLEWARE
