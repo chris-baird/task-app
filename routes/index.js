@@ -6,7 +6,7 @@ router.use('/api', apiRoutes);
 
 router.use((req, res) => {
   console.log('sdfdfd');
-  res.sendFile(path.join(__dirname, '../CLIENT/dist/index.html'));
+  res.sendFile(path.join(__dirname, './CLIENT/dist/index.html'));
 });
 
 module.exports = router;
