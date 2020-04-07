@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="col-12">
     <button>ADD</button>
     <button>VIEW</button>
     <button>MANAGE</button>
