@@ -1,20 +1,20 @@
 <template>
   <div class="table-responsive-sm row">
-    <Toolbar />
+    <h1 class="col-12 text-left">TASK APP</h1>
     <Table />
-    <Sidebar />
+    <!-- <Sidebar /> -->
   </div>
 </template>
 
 <script>
-import Toolbar from '../components/Toolbar'
+
 import Table from '../components/Table'
-import Sidebar from '../components/Sidebar'
+// import Sidebar from '../components/Sidebar'
 export default {
   name: 'Dashboard',
-  components: {
-      Toolbar,
-      Table,Sidebar
+  components: {   
+      Table,
+      // Sidebar
   }
 };
 </script>
